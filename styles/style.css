@@ -75,7 +75,6 @@ body{
     flex-direction: column;
     background-color: #920606;
     max-width: 40%;
-    padding: 25px 30px 110px 30px;
     border-radius: 20px;
     color: #fff;
     transition: 0.4s;
@@ -87,7 +86,6 @@ body{
     flex-direction: column;
     background-color: #9c0303;
     max-width: 40%;
-    padding: 25px 30px 110px 30px;
     border-radius: 20px;
     color: #fff;
     transition: 0.4s;
