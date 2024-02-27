@@ -40,7 +40,7 @@ body{
     border-radius: 40px;
     color: #fff;
     transition: 0.4s;
-    box-shadow: #181818 4px 4px 4px;
+    box-shadow: #181818e0 5px 5px 5px;
     margin: 10% 0 5% 0;
     padding: 25px 30px 100px 30px;
     
@@ -65,7 +65,7 @@ body{
     border-radius: 30px;
     color: #fff;
     transition: 0.4s;
-    box-shadow: #181818 4px 4px 4px;
+    box-shadow: #181818e0 5px 5px 5px;
     padding: 25px 30px 100px 30px;
 
 }
@@ -107,6 +107,22 @@ h1{
     text-align: center;
 }
 
+.local > h2{
+    display: flex;
+    justify-content: center;
+}
+
+.local > p{
+    display: flex;
+    justify-content: center;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
 /* config sobre a introdução ao site */
 
 .introduct{
@@ -131,7 +147,6 @@ h1{
     padding: 30px 0 10px 10px;
 }
 
-
 .infos{
     font-size: 24px;
     padding:20px 20px 20px 40px ;
@@ -142,21 +157,6 @@ h1{
     list-style: none;
 }
 
-.local > h2{
-    display: flex;
-    justify-content: center;
-}
-
-.local > p{
-    display: flex;
-    justify-content: center;
-    
-}
-
-a{
-    text-decoration: none;
-    color: #fff;
-}
 .apresetation{
     display: flex;
     justify-content: space-evenly;
