@@ -1,0 +1,152 @@
+/* configs basicas */
+
+body{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.body-index{
+    background-color: #252525;
+}
+
+/* config sobre login,local e acesso pela home */
+
+.access{
+    display: flex;
+    font-size: 20px;
+    margin: 0 0 0 2%;
+}
+
+.direction{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    margin: 0 0 0 10%;
+}
+
+.sobre{
+    display: flex;
+    flex-direction: column;
+    background-color: #6d0404;
+    max-width: 40%;
+    border-radius: 60px;
+    color: #fff;
+    transition: 0.4s;
+    box-shadow: #181818 4px 4px 4px;
+    margin: 10% 0 5% 0;
+    padding: 15px 30px 50px 30px;
+    
+}
+
+.local{
+    font-size: 20px;
+    max-width: 30%;
+    margin: 15% 0 0 0;
+    text-align: left;
+}
+
+
+.login{
+    display: flex;
+    flex-direction: column;
+    background-color: #6d0404;
+    max-width: 40%;
+    border-radius: 60px;
+    color: #fff;
+    transition: 0.4s;
+    box-shadow: #181818 4px 4px 4px;
+    padding: 15px 30px 50px 30px;
+
+}
+
+.sobre:hover{
+    display: flex;
+    flex-direction: column;
+    background-color: #920606;
+    max-width: 40%;
+    padding: 25px 30px 100px 30px;
+    border-radius: 20px;
+    color: #fff;
+    transition: 0.4s;
+    
+}
+
+.login:hover{
+    display: flex;
+    flex-direction: column;
+    background-color: #9c0303;
+    max-width: 40%;
+    padding: 25px 30px 100px 30px;
+    border-radius: 20px;
+    color: #fff;
+    transition: 0.4s;
+    
+}
+
+.login > p{
+    text-align: center;
+}
+
+.sobre > p{
+    text-align: center;
+}
+
+h1{
+    border-bottom: solid #fff;
+    text-align: center;
+}
+
+/* config sobre a introdução ao site */
+
+.introduct{
+    max-width: 35%;
+    padding: 100px;
+    background-image: url(https://cdn.pensador.com/img/imagens/le/ge/legendas_para_fotos_na_academia_f_l.jpg) ;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    font-size: 24px;
+}
+
+.introduct > p{
+    background-color: #00000073;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.start{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10% 0 0 10%;
+}
+
+
+.infos{
+    font-size: 20px;
+    padding:20px 20px 20px 40px ;
+    margin: 3% 0 0 0;
+}
+
+.infos >ul{
+    list-style: none;
+}
+
+.local > h2{
+    display: flex;
+    justify-content: center;
+}
+
+.local > p{
+    display: flex;
+    justify-content: center;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.apresetation{
+    display: flex;
+    justify-content: space-evenly;
+}
