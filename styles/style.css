@@ -1,9 +1,15 @@
 /* configs basicas */
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body{
     display: flex;
     flex-direction: column;
     color: #fff;
+    background-color: #252525 ;
 }
 
 .body-index{
@@ -150,20 +156,43 @@ a{
     display: flex;
     justify-content: space-evenly;
 }
-/* css da pagin sbbre */
+/* css da pagin sobre */
 .body-sobre{
+    width: 100%;
     background-color: #252525;
+    display: flex;
+    align-items: initial    ;
+    justify-content: space-between;
 }
 .p-sobre{
     
     display: flex;
-    max-width:600px;
-    border-radius: 30px;
+    flex-direction: column;
+    max-width: 40%;
     font-size: 24px;
     color: #fff;
-    transition: 0.4s;
-    margin:20px 0 0 100px ;
     padding: 15px 50px 50px 30px;
-    
-    
+}
+
+.sobre_nos{
+    border-top: 4px solid #ff0000;
+    border-bottom: none;
+    margin: 20px 0;
+    padding: 10px 0 0 0;
+}
+
+.p-sobre > p{
+    margin: 30px 10px;
+    border-left: solid #ff0000 4px;
+    padding: 0 0 0 20px;
+}
+
+figure {
+    height: 100%;
+    width: 35%;
+}
+
+figure > img {
+    height: 100%;
+    width: 100%;
 }
