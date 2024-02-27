@@ -150,3 +150,20 @@ a{
     display: flex;
     justify-content: space-evenly;
 }
+/* css da pagin sbbre */
+.body-sobre{
+    background-color: #252525;
+}
+.p-sobre{
+    
+    display: flex;
+    max-width:600px;
+    border-radius: 30px;
+    font-size: 24px;
+    color: #fff;
+    transition: 0.4s;
+    margin:20px 0 0 100px ;
+    padding: 15px 50px 50px 30px;
+    
+    
+}
