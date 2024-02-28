@@ -9,6 +9,7 @@ body{
     display: flex;
     flex-direction: column;
     color: #fff;
+    background-color: #252525;
 }
 
 .body-index{
@@ -158,4 +159,90 @@ a{
 .apresetation{
     display: flex;
     justify-content: space-evenly;
+}
+
+/* pagina de planos */
+.plans1{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5% 0 0 0;
+}
+
+.plans2{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5% 0 0 0;
+}
+
+.planos{
+    margin: 5% 0 0 0;
+    text-align: center;
+}
+
+.planos > h2{
+    font-size: 34px;
+}
+
+.mensal{
+    font-size: 25px;
+    background-color: #6d0404;
+    padding: 20px 30px 60px 30px;
+    border-radius: 10px;
+    transition: 0.4S;
+}
+
+.mensal:hover{
+    font-size: 25px;
+    background-color: #920606;
+    padding: 30px 40px 70px 40px;
+    border-radius: 10px;
+    transition: 0.4S;
+}
+
+.trimestral{
+    font-size: 25px;
+    background-color: #6d0404;
+    padding: 20px 30px 60px 30px;
+    border-radius: 10px;
+    transition: 0.4S;
+}
+
+.trimestral:hover{
+    font-size: 25px;
+    background-color: #920606;
+    padding: 20px 30px 60px 30px;
+    border-radius: 10px;
+    transition: 0.4S;
+}
+
+.semestral{
+    font-size: 25px;
+    background-color: #6d0404;
+    padding: 20px 30px 60px 30px;
+    border-radius: 10px;
+    transition: 0.4S;
+}
+
+.semestral:hover{
+    font-size: 25px;
+    background-color: #920606;
+    padding: 20px 30px 60px 30px;
+    border-radius: 10px;
+    transition: 0.4S;
+}
+
+.anual{
+    font-size: 25px;
+    background-color: #6d0404;
+    padding: 20px 30px 60px 30px;
+    border-radius: 10px;
+    transition: 0.4S;
+}
+
+.anual:hover{
+    font-size: 25px;
+    background-color: #920606;
+    padding: 20px 30px 60px 30px;
+    border-radius: 10px;
+    transition: 0.4S;
 }
