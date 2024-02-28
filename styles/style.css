@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .login-button{
     background-color: #ff0000;
     padding: 6px 8PX;
@@ -116,10 +121,6 @@
 .card-login > a:hover{
     color: #ff0000;
 /* configs basicas */
-
-* {
-    margin: 0;
-    padding: 0;
 }
 
 body{
@@ -215,7 +216,7 @@ body{
     text-align: center;
 }
 
-h1{
+.body-index > h1{
     border-bottom: solid #fff;
     text-align: center;
 }
@@ -278,22 +279,19 @@ a{
     width: 100%;
     background-color: #252525;
     display: flex;
-    align-items: initial    ;
+    align-items: initial;
     justify-content: space-between;
 }
 .p-sobre{
-    
     display: flex;
     flex-direction: column;
     max-width: 40%;
-    font-size: 24px;
     color: #fff;
-    padding: 15px 50px 50px 30px;
+    padding: 15px 50px 0 30px;
 }
 
 .sobre_nos{
-    border-top: 4px solid #ff0000;
-    border-bottom: none;
+    border: none;
     margin: 20px 0;
     padding: 10px 0 0 0;
 }
@@ -302,11 +300,12 @@ a{
     margin: 30px 10px;
     border-left: solid #ff0000 4px;
     padding: 0 0 0 20px;
+    font-size: 18px;
 }
 
 figure {
     height: 100%;
-    width: 35%;
+    width: 40%;
 }
 
 figure > img {
