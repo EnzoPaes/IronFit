@@ -175,7 +175,7 @@ a{
 }
 
 .sobre_nos{
-    border-top: 4px solid #ff0000;
+    border-top:none;
     border-bottom: none;
     margin: 20px 0;
     padding: 10px 0 0 0;
